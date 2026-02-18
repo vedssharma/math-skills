@@ -85,4 +85,8 @@ Skills are invoked automatically by Claude Code when you describe a relevant mat
 - **Linear algebra:** "compute the eigenvalues of [[1,2],[3,4]]"
 - **Calculus:** "find the derivative of x³·sin(x)" or "solve the ODE y' = -y with y(0)=1"
 
+## Open Skills
+
+You can easily add these skills to any other coding agent by running `npx skills add vedssharma/math-skills`
+
 The `.claude/settings.local.json` pre-approves `pip3 install` (so scripts can install NumPy/SymPy/SciPy if needed) and `WebSearch` for looking up formulas or methods.
