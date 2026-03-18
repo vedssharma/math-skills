@@ -15,6 +15,9 @@ Expert system for vector and matrix operations using NumPy/SciPy.
 - Run decompositions: LU, QR, SVD, Cholesky
 - Solve linear systems (exact, least-squares, or pseudo-inverse)
 
+### How to Add
+You can add the skill by running ```npx skills add vedssharma/math-skills```
+
 **CLI script:** `linear-algebra/scripts/linalg.py`
 
 ```bash
